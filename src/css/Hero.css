@@ -1,0 +1,100 @@
+/* fonts */
+.oswald {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+
+
+
+.hero{
+    height: calc(100vh - 84.58px);
+    width: 100%;
+    display: flex;
+}
+.hero>.left{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 1rem 2.5rem ;
+    height: 100%;
+    width: 25%;
+}
+.hero>.left .top {
+    padding-left: 8rem;
+    padding-top: 27vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.hero>.left .top>div {
+    rotate: -90deg;
+    overflow: hidden;
+}
+.hero>.left .top h1{
+    height: 8rem;
+    letter-spacing: -2px;
+    font-family: syne;
+    font-size: 6rem;
+    text-align: center;
+}
+.hero>.left .bottom{
+    font-size: 1rem;
+    font-family: oswald;
+}
+
+.hero>.right{
+    height: 100%;
+    width: 75%;
+}
+.hero>.right .top{
+    z-index: 99;
+
+}
+.hero>.right .top h1{
+    font-size: 6rem;
+    margin-top: 5rem;
+    font-family: montserrat;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: -10px;
+} 
+.hero>.right .top h1 span{
+    display: inline-block;
+}
+.hero>.right .top p{
+    font-family: gilroy;
+    font-size: 1.5rem;
+    padding-left: 1.6rem;
+}
+.hero>.right .top p span{
+    display: inline-block;
+}
+.hero>.right .bottom{
+    position: relative;
+    display: flex;
+    z-index: 0;
+    overflow: hidden;
+    transform: translateY(-25%);
+    height: 80vh;
+}
+.hero>.right .bottom img{
+    transform: translate(-5% , -33%);
+    height:  200vh;
+}
+.hero>.right .bottom .wheel{
+    left:29%;
+    top: 50%;
+    background-color: #fff;
+    position: absolute;
+    height: 38vh;
+    width: 38vh;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.hero>.right .bottom .wheel img{
+    transform: translate(-19.4% , -52%);
+}
